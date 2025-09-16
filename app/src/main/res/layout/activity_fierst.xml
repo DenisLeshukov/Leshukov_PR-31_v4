@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="@string/calculator"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="153dp"
+        android:src="@drawable/figure1"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="335dp"
+
+
+        />
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="@string/hint1"
+        android:layout_marginTop="335dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        />
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/grey"
+        android:hint="@string/hint2"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="@string/reg"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:onClick="goSecond"
+
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>
